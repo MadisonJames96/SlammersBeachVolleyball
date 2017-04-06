@@ -59,8 +59,8 @@ h1 {
 }
 h2 {
 	text-align: right;
-	margin-right: 227px;
-	margin-top: 111px;
+	margin-top: 102px;
+	margin-right: 142px;
 }
 footer {
 	width: 100%;
@@ -139,4 +139,18 @@ h4 {
 	margin-top: -26px;
 	margin-right: 32px;
 	color: #717171;
+}
+.image1 {
+	margin-top: -29px;
+	margin-left: 304px;
+}
+.image3 {
+	text-align: right;
+	margin-top: -316px;
+	margin-right: 279px;
+}
+.image2 {
+	margin-top: -241px;
+	text-align: center;
+	margin-left: 69px;
 }
