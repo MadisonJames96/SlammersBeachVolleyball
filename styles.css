@@ -47,15 +47,15 @@ body {
 h1 {
 	height: 1em;
 	text-align: center;
-	margin-top: -74px;
-	margin-left: 375px;
+	margin-top: 6px;
+	margin-left: 27px;
 	margin-bottom: -122px;
 	font-family: "Yeah Papa";
 	font-style: normal;
 	font-size: 4em;
 	line-height: 1em;
 	font-weight: 400;
-	color: #FFFFFF;
+	color: #030303;
 }
 h2 {
 	text-align: right;
@@ -87,4 +87,25 @@ header {
 }
 p {
 	padding: 0;
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: 133px;
+}
+.sectionRight {
+	width: 55%;
+	float: right;
+	margin-right: 5%;
+	margin-top: -5%;
+	margin-left: 1%;
+	padding-top: 2.5%;
+	padding-right: 2.5%;
+	padding-bottom: 2.5%;
+	padding-left: 2.5%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 34.25%,rgba(255,255,255,0.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 34.25%,rgba(255,255,255,0.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 34.25%,rgba(255,255,255,0.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 34.25%,rgba(255,255,255,0.00) 100%);
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
