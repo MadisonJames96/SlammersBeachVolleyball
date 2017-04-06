@@ -59,7 +59,7 @@ h1 {
 }
 h2 {
 	text-align: right;
-	margin-right: -44px;
+	margin-right: 227px;
 	margin-top: 111px;
 }
 footer {
@@ -111,6 +111,18 @@ p {
 	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 34.25%,rgba(255,255,255,0.00) 100%);
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;
+	height: 0%;
 }
 body p {
+}
+img {
+}
+form {
+	margin-top: 127px;
+}
+h3 {
+	text-align: center;
+	font-style: italic;
+	font-size: small;
+	color: #0046FF;
 }
