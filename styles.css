@@ -64,15 +64,15 @@ h2 {
 }
 footer {
 	width: 100%;
-	height: 41px;
+	height: 49px;
 	padding-top: 38px;
 	font-size: small;
-	text-align: center;
+	text-align: left;
 	position: fixed;
-	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.90) 58.95%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.90) 58.95%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.90) 58.95%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.90) 58.95%);
 	margin-top: 0px;
 	left: 0px;
 	bottom: 0px;
@@ -125,4 +125,18 @@ h3 {
 	font-style: italic;
 	font-size: small;
 	color: #0046FF;
+}
+h4 {
+	text-align: center;
+}
+.footertextLeft {
+	margin-top: 11px;
+	margin-left: 37px;
+	color: #717171;
+}
+.footertextRight {
+	text-align: right;
+	margin-top: -26px;
+	margin-right: 32px;
+	color: #717171;
 }

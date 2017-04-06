@@ -16,6 +16,8 @@
 <ul class="navlist">
 <li class="navlistitem"><a href="index.html">Home</a></li>
 <li class="navlistitem"><a href="aboutVolleyball.html">About Volleyball</a></li>
+<li class="navlistitem"><a href="whoCanPlay.html">Who Can Play</a></li>
+<li class="navlistitem"><a href="playingGuidelines.html">Playing Guidelines</a></li>
 <li class="navlistitem"><a href="sign-up.html">Sign-Up</a></li>
 <li class="navlistitem"><a href="links.html">Links</a></li>
 <li class="navlistitem"><a href="announcements.html">Announcements</a></li>
@@ -29,74 +31,75 @@
 <section class="sectionRight">
 <h1>Sign-Up Form</h1>
 <form id="form1" name="form1" method="post">
-<label for="textfield2">First Name:</label>
-  <input type="text" name="textfield2" id="textfield2">
-  <label for="textfield">Second Name:</label>
-  <input type="text" name="textfield" id="textfield">
+<label for="First Name">First Name:</label>
+  <input name="First Name" type="text" required id="First Name" form="form1" maxlength="50">
+  <label for="Address">Second Name:</label>
+  <input name="Second Name" type="text" required id="Second Name" form="form1" size="20" maxlength="50">
   <br>
-  <label for="textfield">Address:</label>
-  <input type="text" name="textfield" id="textfield">
-  <label for="textfield">Post Code:</label>
-  <input type="text" name="textfield" id="textfield">
+  <label for="Address">Address:</label>
+  <input name="Address" type="text" required id="Address" form="form1" size="40" maxlength="100">
+  <label for="Address">Post Code:</label>
+  <input name="Post Code" type="text" required id="Post Code" form="form1" size="7" maxlength="4">
   <br>
-  <label for="date">Date of Birth:</label>
-<input type="date" name="date" id="date">
-<label for="tel">Phone No:</label>
-<input type="tel" name="tel" id="tel">
+  <label for="Date of Birth">Date of Birth:</label>
+<input name="Date of Birth" type="date" required id="Date of Birth" form="form1">
+<label for="Phone No">Phone No:</label>
+<input name="Phone No" type="tel" required id="Phone No" form="form1" size="21" maxlength="10">
   <br>
   <br>
-  <label for="email">Email Address:</label>
-<input type="email" name="email" id="email">
+  <label for="Email Address">Email Address:</label>
+<input name="Email Address" type="email" required id="Email Address" form="form1" size="55" maxlength="100">
   <br>
 <label>Competition Day:</label>
   <label>
-    <input type="checkbox" name="Competition Day" value="checkbox" id="CompetitionDay_0">
+    <input name="Competition Day" type="checkbox" id="CompetitionDay_0" form="form1" value="checkbox">
     Mon</label>
   <label>
-    <input type="checkbox" name="Competition Day" value="checkbox" id="CompetitionDay_1">
+    <input name="Competition Day" type="checkbox" id="CompetitionDay_1" form="form1" value="checkbox">
     Tues</label>
   <label>
-    <input type="checkbox" name="Competition Day" value="checkbox" id="CompetitionDay_2">
+    <input name="Competition Day" type="checkbox" id="CompetitionDay_2" form="form1" value="checkbox">
     Wed</label>
   <label>
-    <input type="checkbox" name="Competition Day" value="checkbox" id="CompetitionDay_3">
+    <input name="Competition Day" type="checkbox" id="CompetitionDay_3" form="form1" value="checkbox">
     Thur</label>
   <label>
-    <input type="checkbox" name="Competition Day" value="checkbox" id="CompetitionDay_4">
+    <input name="Competition Day" type="checkbox" id="CompetitionDay_4" form="form1" value="checkbox">
     Fri</label>
   <label>
-    <input type="checkbox" name="Competition Day" value="checkbox" id="CompetitionDay_5">
+    <input name="Competition Day" type="checkbox" id="CompetitionDay_5" form="form1" value="checkbox">
     Sat</label>
   <br>
- <label for="select">Competition Time:</label>
-<select name="select" id="select">
+ <label for="Competition Time">Competition Time:</label>
+<select name="Competition Time" required id="Competition Time" form="form1">
+  <option value="0"></option>
   <option value="1">Afternoon</option>
   <option value="2">Evening</option>
 </select>
 <br>
 <br>
-<label for="checkbox">How did you hear about Slammers?:</label>
+<label for="I Agree">How did you hear about Slammers?:</label>
 <br>
 <label>
-    <input type="checkbox" name="HowDidYourHearAboutSlammers" value="checkbox" id="HowDidYourHearAboutSlammers_0">
+    <input name="HowDidYourHearAboutSlammers" type="checkbox" id="HowDidYourHearAboutSlammers_0" form="form1" value="checkbox">
     Friends</label>
   <label>
-    <input type="checkbox" name="HowDidYourHearAboutSlammers" value="checkbox" id="HowDidYourHearAboutSlammers_1">
+    <input name="HowDidYourHearAboutSlammers" type="checkbox" id="HowDidYourHearAboutSlammers_1" form="form1" value="checkbox">
     Newspaper</label>
   <label>
-    <input type="checkbox" name="HowDidYourHearAboutSlammers" value="checkbox" id="HowDidYourHearAboutSlammers_2">
+    <input name="HowDidYourHearAboutSlammers" type="checkbox" id="HowDidYourHearAboutSlammers_2" form="form1" value="checkbox">
     White Pages</label>
   <label>
-    <input type="checkbox" name="HowDidYourHearAboutSlammers" value="checkbox" id="HowDidYourHearAboutSlammers_3">
+    <input name="HowDidYourHearAboutSlammers" type="checkbox" id="HowDidYourHearAboutSlammers_3" form="form1" value="checkbox">
     Website</label>
     <br>
     <br>
-<input type="checkbox" name="checkbox" id="checkbox">
-<label for="checkbox">I Agree To Slammers Playing Guidelines </label>
+<input name="I Agree" type="checkbox" required id="I Agree" form="form1">
+<label for="I Agree">I Agree To Slammers Playing Guidelines </label>
 <br>
 <h3><a href="playingGuidelines.html">Read the Playing Guidelines here</a></h3>
-<input type="reset" name="reset" id="reset" value="Reset">
-<input type="submit" name="submit" id="submit" value="Submit">
+<h4><input name="reset" type="reset" id="reset" form="form1" value="Reset">
+<input name="submit" type="submit" id="submit" form="form1" value="Submit"></h4>
   
   
   
@@ -118,7 +121,10 @@
 <h2></h2>
 
 
-<footer>footer</footer>
+<footer>
+<p class="footertextLeft">Website by Madison James</p>
+<p class="footertextRight">©COPYRIGHT 2017 Slammers</p>
+</footer>
 
 </body>
 </html>
