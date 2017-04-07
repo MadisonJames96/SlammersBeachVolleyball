@@ -10,13 +10,13 @@ nav {
 	height: 15%;
 }
 .navlist {
-	margin-left: -110px;
+	margin-left: -55px;
 	padding-right: 50px;
 	list-style-type: none;
 	margin-right: 0px;
 	overflow: hidden;
 	padding-left: 0px;
-	padding-top: 38px;
+	padding-top: 45px;
 }
 .navlistitem {
 	float: left;
@@ -60,16 +60,17 @@ h1 {
 	line-height: 1em;
 	font-weight: 400;
 	color: #030303;
+	padding-left: 0px;
 }
 h2 {
 	text-align: right;
-	margin-top: 102px;
-	margin-right: 142px;
+	margin-top: 114px;
+	margin-right: 234px;
 }
 footer {
 	width: 100%;
 	height: 49px;
-	padding-top: 38px;
+	padding-top: 13px;
 	font-size: small;
 	text-align: left;
 	position: fixed;
@@ -85,7 +86,7 @@ footer {
 	font-weight: 400;
 }
 header {
-	margin-left: -220px;
+	margin-left: -250px;
 	text-align: left;
 	padding-right: 286px;
 	margin-bottom: -194px;
@@ -99,7 +100,14 @@ p {
 	margin-top: 128px;
 }
 .p {
-	margin-top: -10px;
+	margin-top: 0px;
+	font-family: actor;
+	font-weight: 400;
+	font-style: normal;
+	font-variant: normal;
+	text-align: center;
+	color: #7C7C7C;
+	text-indent: 0px;
 }
 .sectionRight {
 	width: 55%;
@@ -111,10 +119,10 @@ p {
 	padding-right: 2.5%;
 	padding-bottom: 2.5%;
 	padding-left: 2.5%;
-	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 34.25%,rgba(255,255,255,0.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 34.25%,rgba(255,255,255,0.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 34.25%,rgba(255,255,255,0.00) 100%);
-	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 34.25%,rgba(255,255,255,0.00) 100%);
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.84) 72.70%,rgba(255,255,255,0.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.84) 72.70%,rgba(255,255,255,0.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.84) 72.70%,rgba(255,255,255,0.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.84) 72.70%,rgba(255,255,255,0.00) 100%);
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;
 	height: 0%;
@@ -148,16 +156,60 @@ h4 {
 	color: #717171;
 }
 .image1 {
-	margin-top: -29px;
-	margin-left: 304px;
+	margin-top: -3px;
+	margin-left: 293px;
 }
 .image3 {
 	text-align: right;
 	margin-top: -316px;
-	margin-right: 279px;
+	margin-right: 178px;
 }
 .image2 {
 	margin-top: -241px;
 	text-align: center;
-	margin-left: 69px;
+	margin-left: 141px;
+}
+.image4 {
+	margin-left: 110px;
+	margin-top: 155px;
+}
+.image5 {
+	margin-left: 121px;
+	margin-top: 166px;
+}
+.link {
+	padding-top: 0px;
+}
+.image6 {
+	margin-left: 142px;
+	margin-top: 217px;
+}
+.move {
+	margin-top: 150px;
+}
+.image7 {
+	margin-left: 73px;
+	margin-top: 224px;
+}
+.image8 {
+	margin-top: 191px;
+	margin-left: 100px;
+}
+.list-group {
+	margin-top: 135px;
+	width: 100%;
+	height: 0%;
+}
+.list-group-item-heading {
+}
+.list-group-item {
+}
+.banner {
+	padding-left: 127px;
+	margin-top: 50px;
+}
+.image9 {
+	margin-top: 167px;
+	margin-left: 140px;
+	text-align: center;
 }
