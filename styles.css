@@ -1,25 +1,29 @@
 @charset "UTF-8";
 nav {
 	padding-left: 375px;
-	padding-top: 45px;
+	padding-top: 0px;
 	text-align: center;
 	list-style-type: none;
 	margin: 0;
 	background-color: #FFFFFF;
-	padding-bottom: 0px; 
+	padding-bottom: 0px;
+	height: 15%;
 }
 .navlist {
 	margin-left: -110px;
 	padding-right: 50px;
 	list-style-type: none;
 	margin-right: 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
 	overflow: hidden;
 	padding-left: 0px;
+	padding-top: 38px;
 }
 .navlistitem {
 	float: left;
+}
+.navbar-nav {
+	padding-bottom: 82px;
+	padding-left: 0px;
 }
 .navlistitem a {
 	padding-top: 14px;
@@ -48,7 +52,7 @@ h1 {
 	height: 1em;
 	text-align: center;
 	margin-top: 8px;
-	margin-left: 36px;
+	margin-left: 31px;
 	margin-bottom: -122px;
 	font-family: "Yeah Papa";
 	font-style: normal;
@@ -81,9 +85,11 @@ footer {
 	font-weight: 400;
 }
 header {
-	margin-top: -93px;
-	margin-left: 72px;
+	margin-left: -220px;
 	text-align: left;
+	padding-right: 286px;
+	margin-bottom: -194px;
+	margin-top: -3px;
 }
 p {
 	padding: 0;
@@ -99,7 +105,7 @@ p {
 	width: 55%;
 	float: right;
 	margin-right: 5%;
-	margin-top: -5%;
+	margin-top: 10%;
 	margin-left: 1%;
 	padding-top: 2.5%;
 	padding-right: 2.5%;
@@ -116,6 +122,7 @@ p {
 body p {
 }
 img {
+	left: 0px;
 }
 form {
 	margin-top: 127px;
